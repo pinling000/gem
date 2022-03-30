@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/index_2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <title>鄧紫棋個人網頁|welcome</title>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <a href="index_2.html"><img src="image/logo.png" alt="logo"></a>
+        <ul class="menu">
+            <li>
+                <a href="">關於G.E.M</a>
+                <ul class="second">
+                    <li><a href="intro.html">藝人簡介</a></li>
+                    <li><a href="tour.html">巡迴演唱會</a></li>
+                    <li><a href="charity.html">公益活動</a></li>
+                </ul>
+            </li>
+            <li><a href="music.html">音樂作品</a></li>
+            <li>
+                <a href="">影片專區</a>
+                <ul class="second">
+                    <li><a href="mv.html">MV</a></li>
+                    <li><a href="vlog.html">GEM VLOG</a></li>
+                </ul>
+            </li>
+            <li><a href="merch.html">周邊商品</a></li>
+            <li><a href="shopping_cart2.html">棋士聯盟</a></li>
+        </ul>
+    </header>
+
+    <div class="wrapper">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active "data-bs-interval="3000">
+                    <img src="image/photo10.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item "data-bs-interval="3000">
+                    <img src="image/photo11.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item "data-bs-interval="3000">
+                    <img src="image/photo12.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item "data-bs-interval="3000">
+                    <img src="image/photo13.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item "data-bs-interval="3000">
+                    <img src="image/photo9.jpg" class="d-block" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            
+          </div>
+
+        <div class="albums">
+            <div id="album">
+                <img src="image/music_cityzoo.jpg" alt="">
+                <!-- 按鈕 -->
+                <button href="#" type="button" data-bs-toggle="modal" data-bs-target="#listen">聽音樂</button>
+    
+                <!-- 跳出視窗內容 -->
+                <div class="modal fade" id="listen">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- header -->
+                            <div class="modal-header">
+                                <h3>摩天動物園 City Zoo</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <!-- body -->
+                            <div class="modal-body">
+                                <div class="link">
+                                    <div id="link">
+                                        <i class="fab fa-itunes"></i>
+                                        <h4>iTunes store</h4>
+                                    </div>
+                                    <input type="button" value="listen" onclick="location.href='https://music.apple.com/tw/album/city-zoo/1491477500'">
+                                </div>
+                                
+                                <div class="link">
+                                    <div id="link">
+                                        <i class="fa-brands fa-youtube"></i>
+                                        <h4>Youtube Music</h4>
+                                    </div>
+                                    <input type="button" value="listen" onclick="location.href='https://music.youtube.com/playlist?list=OLAK5uy_n9jqzwQtILctnIokQ6p7qz3ESF-yZC_L4'">
+                                </div>
+                                
+                                <div class="link">
+                                    <div id="link">
+                                        <i class="fa-brands fa-spotify"></i>
+                                        <h4>Spotify</h4>
+                                    </div>
+                                    <input type="button" value="listen" onclick="location.href='https://open.spotify.com/album/5BQmFN38iOhEhMVIdtvFhS'">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="album">
+                <img src="image/music_heartbeat.jpg" alt="">
+                <!-- 按鈕 -->
+                <button href="#" type="button" data-bs-toggle="modal" data-bs-target="#listen2">聽音樂</button>
+    
+                <!-- 跳出視窗內容 -->
+                <div class="modal fade" id="listen2">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- header -->
+                            <div class="modal-header">
+                                <h3>新的心跳 Heartbeat</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <!-- body -->
+                            <div class="modal-body">
+                                <div class="link">
+                                    <div id="link">
+                                        <i class="fab fa-itunes"></i>
+                                        <h4>iTunes store</h4>
+                                    </div>
+                                    <input type="button" value="listen" onclick="location.href='https://music.apple.com/tw/album/%E6%96%B0%E7%9A%84%E5%BF%83%E8%B7%B3/1053567923'">
+                                </div>
+                                
+                                <div class="link">
+                                    <div id="link">
+                                        <i class="fa-brands fa-youtube"></i>
+                                        <h4>Youtube Music</h4>
+                                    </div>
+                                    <input type="button" value="listen" onclick="location.href='https://music.youtube.com/playlist?list=OLAK5uy_nZ_WEsL7YjlKqRWtoaWzPYIS0ECjpyNTQ'">
+                                </div>
+                                
+                                <div class="link">
+                                    <div id="link">
+                                        <i class="fa-brands fa-spotify"></i>
+                                        <h4>Spotify</h4>
+                                    </div>
+                                    <input type="button" value="listen" onclick="location.href='https://open.spotify.com/album/1tEl9cDFkTKGmaRpZLB7zW'">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="album">
+                <img src="image/music_xposed.jpg" alt="">
+                <!-- 按鈕 -->
+                <button href="#" type="button" data-bs-toggle="modal" data-bs-target="#listen3">聽音樂</button>
+    
+                <!-- 跳出視窗內容 -->
+                <div class="modal fade" id="listen3">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- header -->
+                            <div class="modal-header">
+                                <h3>Xposed</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <!-- body -->
+                            <div class="modal-body">
+                                <div class="link">
+                                    <div id="link">
+                                        <i class="fab fa-itunes"></i>
+                                        <h4>iTunes store</h4>
+                                    </div>
+                                    <input type="button" value="listen" onclick="location.href='https://music.apple.com/tw/album/xposed/539454713'">
+                                </div>
+                                
+                                <div class="link">
+                                    <div id="link">
+                                        <i class="fa-brands fa-youtube"></i>
+                                        <h4>Youtube Music</h4>
+                                    </div>
+                                    <input type="button" value="listen" onclick="location.href='https://music.youtube.com/playlist?list=OLAK5uy_n9jqzwQtILctnIokQ6p7qz3ESF-yZC_L4'">
+                                </div>
+                                
+                                <div class="link">
+                                    <div id="link">
+                                        <i class="fa-brands fa-spotify"></i>
+                                        <h4>Spotify</h4>
+                                    </div>
+                                    <input type="button" value="listen" onclick="location.href='https://open.spotify.com/album/5EUhTGmsSlrrt2w3IZd1IG'">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mv">
+            <iframe width="960" height="540" src="https://www.youtube.com/embed/UNsfcZfASpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social">
+            <a href="">instagram</a>
+            <a href="">facebook</a>
+            <a href="">weibo</a>
+            <a href="">twitter</a>
+            <a href=""><i class="fa-brands fa-youtube"></i>youtube</a>
+            <a href="">redbook</a>
+            <a href="">tiktok</a>
+        </div>
+        <div>
+            <a href="">contact us</a>
+            <p>2022 G.E.M. 鄧紫棋 @copyright</p>
+        </div>
+    </footer>
+</body>
+</html>
