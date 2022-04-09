@@ -1,0 +1,36 @@
+body{
+    background-image: url(../image/index5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+input{
+    width: 90px;
+    height: 90px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #084a7b;
+    background-color: transparent;
+    border: 1px solid #084a7b;
+    transition: all .5s linear;
+    border-radius: 50%;
+    top: -30px;
+    left: 300px;
+}
+input:hover{
+    background-color: #084a7b;
+    color: #fff;
+}
+
+img{
+    width: 420px;
+}
+
+div{
+    margin-left: 235px;
+    margin-top: 350px;
+    position: fixed;
+}
