@@ -87,72 +87,61 @@ header ul.menu li:hover>ul{
 
 .wrapper{
     min-height: calc(100% - 100px); 
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-.section1{
+.section{
     display: flex;
-    justify-content: center;
-    margin: 15px 0;
-}
-
-.section1 img{
-    width: 525px;
-    margin: 15px;
-}
-
-.section2{
-    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.section2 img{
-    margin:0 10px;
-    width: 345px;
+.section img{
+    width: 300px;
+    margin: 25px 25px 0 25px;
 }
 
-.section3 a{
-    text-decoration: none;
+#album{
     display: flex;
-    justify-content: center;
-    color: #7c0085;
-    font-size: 25px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.section3 a:hover{
-    text-decoration: none;
-    color: #f29efb;
+#album .btn{
+    width: 300px;
+    border: 1px solid #e6c5fb;
+    color: #70136e;
+    background-color: #e6c5fb;
 }
 
-.back{
-  display: block;
-  margin: auto;
-  width: 1080px;
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
 }
 
-.word{
-    position: absolute;
-    z-index: -10;
-    -webkit-text-stroke: 1px #ead6fd;  
-    -webkit-text-fill-color : transparent;
-    font-size: 100px; 
-    color:#fff;
-    font-family: sans-serif;
-    right: 10px;
-    top: 1250px;
+.information{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 25px;
 }
 
-.word_2{
-    position: absolute;
-    z-index: -10;
-    -webkit-text-stroke: 1px #ead6fd;  
-    -webkit-text-fill-color : transparent;
-    font-size: 100px; 
-    color:#fff;
-    font-family: sans-serif;
-    right: 10px;
-    top: 1190px;
+.btn-music{
+    margin: 10px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.play{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+
 }
 
 footer{

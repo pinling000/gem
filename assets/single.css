@@ -87,24 +87,83 @@ header ul.menu li:hover>ul{
 
 .wrapper{
     min-height: calc(100% - 100px); 
+    margin-bottom: 30px;
 }
 
-#carouselExampleControls{
-    padding: 30px 0;
-}
-
-.d-block{
+.section{
     display: flex;
-    margin-block: auto;
-    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
-.carousel-control-prev{
-    margin-left: 200px;
+.section img{
+    width: 300px;
+    margin: 25px 25px 0 25px;
 }
 
-.carousel-control-next{
-    margin-right: 200px;
+#single{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#single .btn{
+    width: 300px;
+    border: 1px solid #e6c5fb;
+    color: #70136e;
+    background-color: #e6c5fb;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-music{
+    margin: 10px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+#link{
+    display: flex;
+    align-items: baseline;
+
+}
+
+i{
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.fa-itunes{
+    color: #db31ff;
+}
+
+.fa-spotify{
+    color: #28e35c;
+}
+
+.youtube{
+    font-size: 30px;
+    color: red;
+}
+
+.word{
+    position: absolute;
+    z-index: -10;
+    -webkit-text-stroke: 1px #ead6fd;  
+    -webkit-text-fill-color : transparent;
+    font-size: 100px; 
+    color:#fff;
+    font-family: sans-serif;
+    right: 10px;
+    top: 1480px;
 }
 
 footer{
