@@ -122,8 +122,13 @@ header ul.menu li:hover>ul{
 
 .information{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     margin-bottom: 25px;
+}
+
+.information>img{
+    width: 300px;
+    margin: 25px;
 }
 
 .btn-music{
