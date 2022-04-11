@@ -181,6 +181,30 @@ h1{
     font-size: 100px;
 }
 
+.word_2{
+    position: absolute;
+    z-index: -10;
+    -webkit-text-stroke: 1px #ead6fd;  
+    -webkit-text-fill-color : transparent;
+    font-size: 100px; 
+    color:#fff;
+    font-family: sans-serif;
+    right: 10px;
+    top: 2220px;
+}
+
+.word_3{
+    position: absolute;
+    z-index: -10;
+    -webkit-text-stroke: 1px #ead6fd;  
+    -webkit-text-fill-color : transparent;
+    font-size: 100px; 
+    color:#fff;
+    font-family: sans-serif;
+    right: 10px;
+    top: 2905px;
+}
+
 footer{
     height: 100px;
     text-align: center;
