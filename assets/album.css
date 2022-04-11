@@ -149,6 +149,18 @@ header ul.menu li:hover>ul{
 
 }
 
+.word{
+    position: absolute;
+    z-index: -10;
+    -webkit-text-stroke: 1px #ead6fd;  
+    -webkit-text-fill-color : transparent;
+    font-size: 100px; 
+    color:#fff;
+    font-family: sans-serif;
+    right: 10px;
+    top: 1095px;
+}
+
 footer{
     height: 100px;
     text-align: center;
